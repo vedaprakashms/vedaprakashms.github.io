@@ -21,7 +21,7 @@
 title: Ved's Tinker Shelter
 email: vedaprakash.ms@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  How to for all Tinkers i host on github, this site shall explain how to operate the tools and the optimal conditions to work with those tools.
+  "How to" for all projects i host on github, this site shall explain how to operate the hosted code and installations and optimal usage instructions.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
