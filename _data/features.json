@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Free Software",
+    "description": "Software should not be at a cost, but at fingertips",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Minimize Repetitive Work",
+    "description": "No Work Should be Boring, If Bored Automate",
+    "image": "images/features/noun_The Process_1885341.svg"
+  },
+  {
+    "title": "More Analysis",
+    "description": "Analyze more Data with more Time in Hand",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  }
+]
