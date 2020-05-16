@@ -6,13 +6,13 @@ title: "Vishwakarma Software Solutions"
 collections:
   services:
     output: true
-    permalink: /services/:path/
+    permalink: /Softwares/:path/
   team:
     output: true
-    permalink: /team/:path/
+    permalink: /Author/:path/
   testimonials:
     output: true
-    permalink: /testimonials/:path/
+    permalink: /Projects/:path/
 
 
 defaults:
