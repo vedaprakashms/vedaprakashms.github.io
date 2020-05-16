@@ -1,9 +1,9 @@
 <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/Projects/" class="{% if page.url contains 'Projects' %}current{% endif %}">Projects</a></li>
     <li><a href="{{site.baseurl}}/Softwares/" class="{% if page.url contains 'Softwares' %}current{% endif %}">Softwares</a></li>
     <li><a href="{{site.baseurl}}/Author/" class="{% if page.url contains 'Author' %}current{% endif %}">Author</a></li>
-    <li><a href="{{site.baseurl}}/Projects/" class="{% if page.url contains 'Projects' %}current{% endif %}">Projects</a></li>
     <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
   </ul>
 </div>
