@@ -1,5 +1,5 @@
 ---
-title: 'USPTO'
+title: 'USPTO - PEDS'
 image: ''
 businessurl: 'https://github.com/vedaprakashms/PEDS_USPTO/'
 name: 'PEDS_USPTO'

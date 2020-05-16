@@ -14,9 +14,11 @@
     .service-title {
       font-family: $font-family-heading;
       font-size: 1.6rem;
+      text-align: justify;
     }
     p {
       color: $secondary;
+      text-align: justify;
     }
   }
 }
