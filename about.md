@@ -4,7 +4,6 @@ title: About the Author
 permalink: about
 ---
 
-
 Vedaprakash usually gone by "Ved" is a electronics and communication engineer with masters in Embedded system by education. He is currently pursuing his LLB  / JD in Law. His hobbies include Electronics tinkring, Software programming. 
 
 
