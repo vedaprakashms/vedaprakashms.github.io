@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
-gem 'github-pages'
-gem 'jekyll-environment-variables'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gemspec
+
+# for demo site
+gem "jekyll-paginate"

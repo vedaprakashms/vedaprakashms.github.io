@@ -1,35 +1,46 @@
-baseurl: ''
-exclude: ['README.md']
-permalink: pretty
-title: "Vishwakarma Software Solutions"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-collections:
-  services:
-    output: true
-    permalink: /Softwares/:path/
-  team:
-    output: true
-    permalink: /Author/:path/
-  testimonials:
-    output: true
-    permalink: /Projects/:path/
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Ved's Blog
+email: hello@patdryburgh.com
+description: >- # this means to ignore newlines until "baseurl:"
+  All about weekend Software, Hardware and Miscellaneous projects i take on. 
+  It may contain some of the How to Tutorials.  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vedaprakashms.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /assets/images/icon-512.png
+twitter_username: vedms
+github_username:  vedaprakashms
 
+# Build settings
+markdown: kramdown
 
-defaults:
-  - scope:
-      type: services
-    values:
-      layout: service
-      bodyClass: page-services-single
-  - scope:
-      path: 'images'
-    values:
-      image: true
-
-sass:
-  style: compact # possible values: nested expanded compact compressed
-
-google_analytics_id: UA-166601038-1
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
-  - jekyll-environment-variables
+  - jekyll-paginate
+
+paginate: 3
+paginate_path: "/page/:num/"
