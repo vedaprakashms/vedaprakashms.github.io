@@ -16,8 +16,7 @@
 title: Ved's Blog
 email: vedaprakash.ms@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  All about weekend Software, Hardware and Miscellaneous projects i take on. 
-  It contains some of the How to Tutorials of my projects.  
+  All about weekend Software, Hardware and Miscellaneous projects i take on.   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vedaprakashms.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
