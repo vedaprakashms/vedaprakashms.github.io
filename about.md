@@ -8,6 +8,5 @@ permalink: about
 
 <figure>
   <img alt="Vedaprakash Vishwakarma" src="" />
-
 </figure>
 
