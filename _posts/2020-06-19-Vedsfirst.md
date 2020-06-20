@@ -1,7 +1,7 @@
 ---
 title: Making DIY Arduino.
 author: Ved
-category: Hardware
+categories: hardware
 layout: post
 ---
 
