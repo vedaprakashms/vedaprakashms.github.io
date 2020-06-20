@@ -25,6 +25,7 @@ layout: default
 <main class="home" id="main" role="main" aria-label="Content">
 
   {% for category in site.categories %}
+  
   {% if category[0] == page.list_type %}
 
     {% if page.list_type != '404' %}
@@ -32,10 +33,11 @@ layout: default
         Contents
       </h1>
     {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <ul class="post-list">
+      <a href="{{ post.url }}">{{ post.title }}</a> </ul>
     {% endfor %}
     {% endif %}
-
+  
   {% endif %}
 
 
