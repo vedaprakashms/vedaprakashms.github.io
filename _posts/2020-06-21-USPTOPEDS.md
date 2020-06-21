@@ -5,7 +5,7 @@ categories: software
 layout: post
 permalink: /software/USPTO_PEDS
 ---
-# Introduction to the Software
+# Introduction
 This software extracts the data from USPTO PEDS API, this is used to get the current status and other details of US patent applications in bulk. This software gets inputs as only US patent application numbers. Further enhancements will include auto detection of Application numbers, Publications numbers and Granted numbers. 
 
 # Background
