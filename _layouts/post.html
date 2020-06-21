@@ -17,7 +17,9 @@ layout: default
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.title !="About the Author"%}
     <h1>Table of Contents</h1>
+    {% endif %}
     {% include toc.html html=content %}
     {{ content }}
     
