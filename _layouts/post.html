@@ -17,9 +17,15 @@ layout: default
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
+    <h1>Table of Contents</h1>
+    {% include toc.html html=content %}
+    <h1>Introduction</h1>
     {{ content }}
+    
   </div>
-<div class="divided"> Hope you enjoyed !!</div>
+<div class="divided"> Hope you enjoyed !! 
+  <br> If not here are some Funny <a href="https://www.youtube.com/results?search_query=Funny+Videos">Videos</a>  for you :) 
+</div>
   <div class="post-meta ">
     
     {% if page.author %}
