@@ -24,9 +24,12 @@ layout: default
     {{ content }}
     
   </div>
-<div class="divided"> Hope you enjoyed !! 
-  <br> If not here are some Funny <a href="https://www.youtube.com/results?search_query=Funny+Videos">Videos</a>  for you :) 
-</div>
+  {% if page.title !="About the Author"%}
+  <div class="divided"> Hope you enjoyed !! 
+    <br> If not here are some Funny <a href="https://www.youtube.com/results?search_query=Funny+Videos">Videos</a>  for you :) 
+  </div>
+  {% endif %}
+
   <div class="post-meta ">
     
     {% if page.author %}
