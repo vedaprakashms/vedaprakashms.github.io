@@ -29,14 +29,16 @@ layout: default
   {% if category[0] == page.list_type %}
 
     {% if page.list_type != '404' %}
-      <h1 class="content-title divided">
+    <h1 class="content-title divided">
         Contents
-      </h1>
+    </h1>
     {% for post in category[1] %}
-    <ul class="post-list">
-      <a href="{{ post.url }}">{{ post.title }}</a> </ul>
+      <li class="post-list">
+        <a href="{{ post.url }}">{{ post.title }}</a> 
+      </li>
     {% endfor %}
     {% endif %}
+
   
   {% endif %}
 
