@@ -4,5 +4,16 @@
     {
         display: none !important;
     }
+    
+    .post {
+        background: white;
+        margin: 0;
+      }
 
+    .post > h1 {
+        font-size: 1em;
+    }
+    .post p {
+        text-indent: 0.5em;
+      }
 }
