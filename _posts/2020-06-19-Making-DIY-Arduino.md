@@ -3,6 +3,7 @@ title: Making DIY Arduino.
 author: Ved
 categories: hardware
 layout: post
+permalink: /hardware/DIY_hardware
 ---
 This is Yet in development on KICAD. Soon this will be shared,thanks for the interest. 
 <br>
