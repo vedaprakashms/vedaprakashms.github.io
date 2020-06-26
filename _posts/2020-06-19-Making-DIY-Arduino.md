@@ -10,8 +10,8 @@ The concept of "Simpino" or simple Arduino came into my mind as I was looking fo
 
 ## Simpino's design.
 Simplino's design is minimalistic it contains a microcontroller, TTL logic controller, voltage regulator and other minimal components like resistor, capacitor and LEDs on a single sided board and some headder pins/sockets, Complete component list is noted below with quantities. 
-Below is the Circuit diagram, the circuit diagram is divided into multiple sections. The circuit diagram is self explanatory. But i shall be going over each sections. The circuit diagram image is a scalable vector graphic so don't worry you can open the image in a new page and get to zoom in as much as you want to get a clear picture. 
-<img alt="Template Generate" src="..\assets\Software_projects_images\USPTO_PEDS\Field_selection.png"></li>
+Below is the Circuit diagram, the circuit diagram is divided into multiple sections. The circuit diagram is self explanatory. But i shall be going over each sections. The circuit diagram image is a scalable vector graphic so don't worry you can open the image in a new page and get to zoom in as much as you want to get a clear picture. Those who need a offline copy here is a [PDF link](url){:target="_blank"} too.
+<img alt="Template Generate" src="..\assets\Software_projects_images\USPTO_PEDS\Field_selection.png">
 
 
 
