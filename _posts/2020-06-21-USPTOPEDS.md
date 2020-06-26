@@ -5,10 +5,10 @@ categories: software
 layout: post
 permalink: /software/USPTO_PEDS
 ---
-# Introduction
+## Introduction
 This software extracts the data from USPTO PEDS API, this is used to get the current status and other details of US patent applications in bulk. This software gets inputs as only US patent application numbers. Further enhancements will include auto detection of Application numbers, Publications numbers and Granted numbers. 
 
-# Background
+## Background
 
 USPTO Patent Examination Data System site provides data regarding ongoing patent examinations and examined US patent application's current status. This can be access via USPTO PAIR data base too. The PEDS data can be bulk downloaded or can be accessed via API given for free by USPTO. 
 <br>
@@ -25,7 +25,7 @@ The program described below is a creation of my own to extract multiple applicat
 <br>
 <br>
 
-# Software Working
+## Software Working
 <br>
 You can find the software on [github](https://github.com/vedaprakashms/PEDS_USPTO/releases/download/V2/PEDS_extraction_app-V2.7z).
 
